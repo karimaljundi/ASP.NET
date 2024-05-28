@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karim\\OneDrive\\Desktop\\ASP.NET\\MvcMovie\\MvcMovie.csproj": {}
+    "c:\\Users\\karim\\OneDrive\\Desktop\\ASP.NET\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karim\\OneDrive\\Desktop\\ASP.NET\\MvcMovie\\MvcMovie.csproj": {
+    "c:\\Users\\karim\\OneDrive\\Desktop\\ASP.NET\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karim\\OneDrive\\Desktop\\ASP.NET\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "c:\\Users\\karim\\OneDrive\\Desktop\\ASP.NET\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\karim\\OneDrive\\Desktop\\ASP.NET\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "c:\\Users\\karim\\OneDrive\\Desktop\\ASP.NET\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\karim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karim\\OneDrive\\Desktop\\ASP.NET\\MvcMovie\\obj\\",
+        "outputPath": "c:\\Users\\karim\\OneDrive\\Desktop\\ASP.NET\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karim\\AppData\\Roaming\\NuGet\\NuGet.Config"
