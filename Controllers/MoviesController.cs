@@ -19,10 +19,23 @@ namespace MvcMovie.Controllers
             _context = context;
         }
 
+    [HttpPost]
+public string Index(string searchString, bool notUsed)
+{
+    return "From [HttpPost]Index: filter on " + searchString;
+}
         // GET: Movies
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Movie.ToListAsync());
+            if (_context.Movie == null){
+                return Problem("Entity set 'McMopvieContext.Movie' is null");
+            }
+            var movies = from m in _context.Movie
+                select m;
+            if (!String.IsNullOrEmpty(searchString)){
+                movies = movies.Where(s => s.Title!.Contains(searchString));
+            }
+            return View(await movies.ToListAsync());
         }
 
         // GET: Movies/Details/5
